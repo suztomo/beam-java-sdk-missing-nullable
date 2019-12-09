@@ -12,6 +12,7 @@ public class AppTest
     public void shouldExtractFieldValueInformation()
     {
         Field field = AppTest.class.getDeclaredFields()[0];
+
         // This fails
         FieldValueTypeInformation.forField(field);
     }
