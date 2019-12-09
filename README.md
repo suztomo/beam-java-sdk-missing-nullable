@@ -1,6 +1,7 @@
 # Example Test Case to Show Missing Nullable Class
 
-The test case `AppTest.shouldExtractFieldValueInformation` fails because of missing Nullable class.
+The test case [`AppTest.shouldExtractFieldValueInformation`](src/test/java/suztomo/AppTest.java)
+fails because of missing `Nullable` class.
 
 ```
 suztomo@suxtomo24:~/beam-sdk-java-missing-nullable$ mvn clean test
